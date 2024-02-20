@@ -11,7 +11,7 @@ $('.page-scroll').on('click', function(event) {
     // pindahkan scroll
     $('html, body').animate({
         scrollTop: elemenTujuan.offset().top - 50
-    }, 1000, 'swing');
+    }, 1000, 'easeInOutExpo');
 
     // Mencegah default behavior dari tautan
     event.preventDefault();
