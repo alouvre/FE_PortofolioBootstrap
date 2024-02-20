@@ -14,11 +14,11 @@ body {
 
 hr {
     width: 250px;
-    border-top: 3px solid #999;
+    border-top: 50px solid #9c9a9a;
 }
 
 section {
-    min-height: 300px;
+    min-height: 600px;
 }
 
 .portfolio {
